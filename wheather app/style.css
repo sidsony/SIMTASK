@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.card{
+    background-color: rgb(116, 155, 213);
+    width:30%;
+    height:505px;
+    margin:100px auto;
+    border-radius: 20px;
+    padding: 40px,35px;
+    text-align: center;
+}
+.heading{
+    color: black;
+    text-decoration-line: underline;
+}
+.search{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.searchBar{
+    margin:auto;
+    border-radius: 30px;
+    padding:10px 25px;
+    font-size: 15px;
+}
+
+.btn{
+    border-radius: 15px;
+    position: relative;
+    right: 22px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.wheather-img{
+    width: 30%;
+    margin: 10px 0px;
+
+}
+.wheather h1{
+    font-size:80px;
+    font-weight: 500;
+    margin: 0;
+}
+.wheather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-top:-10px;
+}
+.wheather-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top:20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}

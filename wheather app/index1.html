@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="card">
+      <h1 class="heading">wheather application</h1>
+        <div class="search">
+          <input type="text" class="searchBar" placeholder="enter city name" id="cityName">
+          <button class="btn">enter</button>
+
+        </div>
+        <div class="wheather">
+          <img src="assets/images/clouds.png" alt="wheather-img" class="wheather-img">
+            <h1 class="temp">0°c</h1>
+            <h2 class="city" id="cityName">unknown</h2>
+        </div>
+          <div class="wheather-details">
+            <div class="col">
+                <img src="assets/images/humidity1.png" alt="humidity">
+                <div>
+                  <p>humidity:</p>
+                  <p class="humidity">0%</p>
+                </div>
+            </div>
+            <div class="col">
+              <img src="assets/images/wind1.png" alt="wind-img">
+              <div>
+                <p>wind speed:</p>
+                <p class="wind">0km/h</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
